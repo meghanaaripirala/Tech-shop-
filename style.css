@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    
+}
+
+.main-header {
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+   
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icons {
+   
+    color: white;
+    padding: 10px 10px;
+}
+.nav-icons a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.nav-icons a:hover {
+    background-color: #575757;
+}
+.fas fa-search {
+    color: white;
+    font-size: 10px;
+}
+.fas fa-shopping-cart {
+    color: white;
+    font-size: 10px;
+}
+.fas fa-user {
+    color: white;
+    font-size: 10px;
+}
+
