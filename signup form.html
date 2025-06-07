@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+   <div class="container">
+    <input type="radio" name="formToggle" id="signupTab" checked hidden>
+    <input type="radio" name="formToggle" id="loginTab" hidden>
+
+    <div class="tabs">
+      <label for="signupTab" class="tab">Signup</label>
+      <label for="loginTab" class="tab">Login</label>
+    </div>
+
+    <!-- Signup Form -->
+    <div class="form signup-form">
+      <h2>Signup</h2>
+      <input type="text" placeholder="Username">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <input type="password" placeholder="Confirm Password">
+      <button class="submit-btn">Signup</button>
+ <hr>
+      <p class="or-text">or signup with</p>
+      <div class="social-login">
+        <button class="facebook">Facebook</button>
+        <button class="google">Google</button>
+        <button class="twitter">Twitter</button>
+      </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="form login-form">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button class="submit-btn">Login</button>
+
+      <hr>
+      <p class="or-text">or login with</p>
+      <div class="social-login">
+        <button class="facebook">Facebook</button>
+        <button class="google">Google</button>
+        <button class="twitter">Twitter</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
