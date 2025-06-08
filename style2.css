@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+.header {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ddd;
+  font-size: 1.5rem;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.cart-count {
+  background: red;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.cart-items {
+  flex: 2;
+  margin-right: 2rem;
+}
+
+.item {
+  background: #1e1e1e;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.item img {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.details-only {
+  padding-left: 1rem;
+  flex-grow: 1;
+}
+
+.price {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.current {
+  color: #fff;
+  font-weight: bold;
+}
+
+.original {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.quantity button {
+  background: #333;
+  color: #fff;
+  padding: 0.2rem 0.7rem;
+  border: none;
+  font-size: 1rem;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+.quantity span {
+  font-size: 1.1rem;
+}
+
+.delete-icon {
+  color: #999;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+.summary {
+  flex: 1;
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.summary h2 {
+  margin-top: 0;
+}
+
+.summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.discount {
+  color: #00ff87;
+}
+
+.free {
+  color: #00ff87;
+}
+
+.summary h3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.checkout-btn {
+  background: red;
+  color: #fff;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #0d0d0d;
+  color: #ccc;
+  padding: 2rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-top > div {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.footer-top input {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.footer-top button {
+  padding: 0.5rem 1rem;
+  background: red;
+  border: none;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top ul li {
+  margin: 0.3rem 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-icons i {
+  margin-left: 1rem;
+  cursor: pointer;
+}
