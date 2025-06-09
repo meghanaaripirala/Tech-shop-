@@ -1,135 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tech-Shop Cart</title>
-  <link rel="stylesheet" href="./style2.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cartpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <header class="header">
-    <h1 class="logo">Tech-Shop</h1>
-    <div class="cart-icon">
-      <i class="fas fa-shopping-cart"></i>
-      <span class="cart-count">4</span>
+    <div class="wholepage">
+    <div class="header">
+            <div class="heading">
+                 <h2>Tech-Shop</h2>
+            </div>
+            <div class="navbar-icons">
+                <div class="searchbar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p class="hovering">Search</p>
+                </div>
+                <div class="cart">
+                     <div class="number"><p>4</p></div>
+                     <a href="./cart.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                     <p class="hovering">Cart</p>
+                </div>
+                <div class="profile-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <div class="profile-card">
+                        <h2>Hello!</h2>
+                        <p>Access account and manage orders</p>
+                        <div class="btn"><a href="./registrationpage.html"><button  >Login / Signup</button></a></div><hr>
+                        <p>Please Login</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cartbody">
+            <div class="cartimages">
+                <div class="images">
+                    <div class="image1">
+                        <div class="smimage">
+                            <img src="./image/products/jbl660nc-1.png" alt="jbl660nc-1">
+                        </div>
+                        <div class="details">
+                            <p>JBL Live 660NC Wireless Over-Ear NC Headphones</p>
+                            <i class="fa-solid fa-trash"></i>
+                            <ins>₹9,999</ins><del>₹14,999</del>
+                            <div class="cartbuttons"><div class="btn1"><button>-</button></div>
+                            <div class="btn2"><button>1</button></div>
+                            <div class="btn1"><button>+</button></div></div>
+
+                        </div>  
+
+                    </div>
+                    <hr>
+                    <div class="image1">
+                        <div class="smimage">
+                            <img src="./image/products/boat518-1.png" alt="boat518-1">
+                        </div>
+                        <div class="details">
+                            <p>boAt Rockerzz 518 On-Ear Wireless Headphones</p>
+                            <i class="fa-solid fa-trash"></i>
+                            <ins>₹1,299</ins><del>₹3,990</del>
+                            <div class="cartbuttons"><div class="btn1"><button>-</button></div>
+                            <div class="btn2"><button>1</button></div>
+                            <div class="btn1"><button>+</button></div></div>
+                        </div>
+                    </div><hr>
+                    <div class="image1">
+                        <div class="smimage">
+                            <img src="./image/products/boat131-1.png" alt="boat131-1">
+                        </div>
+                        <div class="details">
+                            <p>boAt Airdopes Wireless In-Ear Wireless Headphones</p>
+                            <i class="fa-solid fa-trash"></i>
+                            <ins>₹1,099</ins><del>₹2,990</del>
+                            <div class="cartbuttons"><div class="btn1"><button>-</button></div>
+                            <div class="btn2"><button>1</button></div>
+                            <div class="btn1"><button>+</button></div></div>
+                        </div>
+                    </div><hr>
+                    <div class="image1">
+                        <div class="smimage">
+                            <img src="./image/products/boat110-1.png" alt="boat110-1">
+                        </div>
+                        <div class="details">
+                            <p>boAt Bassheads In-Ear Wired 218NC Headphones</p>
+                            <i class="fa-solid fa-trash"></i>
+                            <ins>₹449</ins><del>₹999</del>
+                            <div class="cartbuttons"><div class="btn1"><button>-</button></div>
+                            <div class="btn2"><button>1</button></div>
+                            <div class="btn1"><button>+</button></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ordersummary">
+                <h2>Order Summary ( 4 items ) </h2>
+                <div class="price">
+                    <p>Original Price</p>
+                    <ins>₹22,978</ins>
+                </div>
+                <div class="discount">
+                    <p>Discount</p>
+                    <ins>-₹10,132</ins>
+
+                </div>
+                <div class="delivery">
+                     <p>Delivery</p>
+                     <h5>Free</h5>
+                </div>
+                <hr>
+                <div class="total">
+                     <h2>Total Price</h2>
+                     <ins>₹12,846</ins>
+                </div>
+                <div class="orderbtn">
+                     <button>Checkout</button>
+                </div>
+            </div>
+
+        </div>
     </div>
-  </header>
+    <footer class="footer">
+  <div class="footer-top">
+    <div class="footer-column">
+      <h3>Tech-Shop</h3>
+      <p>Subscribe to our Email alerts to 
+receiveearly discount offers,and new 
+products info.</p><br>
 
-  <main class="main-container">
-    <section class="cart-items">
-      <div class="item">
-        <img src="./image/products/jbl100-1.png" alt="JBL Headphones">
-        <div class="details">
-          <h3>JBL Live 660NC Wireless Over-Ear NC Headphones</h3>
-          <div class="price">
-            <span class="current">₹9,999</span>
-            <span class="original">₹14,999</span>
-          </div>
-          <div class="quantity">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
-          </div>
-        </div>
-        <i class="fas fa-trash delete-icon"></i>
-      </div>
-
-      <div class="item">
-        <img src="./image/products/boat255r-1.png" alt="boAt Rockerz">
-        <div class="details">
-          <h3>boAt Rockerz 518 On-Ear Wireless Headphones</h3>
-          <div class="price">
-            <span class="current">₹1,299</span>
-            <span class="original">₹3,990</span>
-          </div>
-          <div class="quantity">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
-          </div>
-        </div>
-        <i class="fas fa-trash delete-icon"></i>
-      </div>
-
-      <div class="item">
-         <img src="./image/products/boat381-1.png" alt="boAt Airdopes">
-        <div class="details-only">
-          <h3>boAt Airdopes 131 Wireless In-Ear</h3>
-        </div>
-        <div class="price">
-            <span class="current">₹1,299</span>
-            <span class="original">₹3,990</span>
-          </div>
-          <div class="quantity">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
-          </div>
-        </div>
-        <i class="fas fa-trash delete-icon"></i>
-      </div>
-    </section>
-
-    <aside class="summary">
-      <h2>Order Summary <span>(4 items)</span></h2>
-      <p>Original Price <span>₹22,978</span></p>
-      <p>Discount <span class="discount">- ₹10,132</span></p>
-      <p>Delivery <span class="free">Free</span></p>
-      <hr>
-      <h3>Total Price <span>₹12,846</span></h3>
-      <button class="checkout-btn">Checkout</button>
-    </aside>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-top">
-      <div>
-        <h3>Tech-Shop</h3>
-        <p>Subscribe to our Email alerts to receive early discount offers, and new products info.</p>
-        <input type="email" placeholder="Email Address*">
-        <button>Subscribe</button>
-      </div>
-      <div>
-        <h4>Help</h4>
-        <ul>
-          <li>FAQs</li>
-          <li>Track Order</li>
-          <li>Cancel Order</li>
-          <li>Return Order</li>
-          <li>Warranty Info</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Policies</h4>
-        <ul>
-          <li>Return Policy</li>
-          <li>Security</li>
-          <li>Sitemap</li>
-          <li>Privacy Policy</li>
-          <li>Terms & Conditions</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Company</h4>
-        <ul>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Service Centres</li>
-          <li>Careers</li>
-          <li>Affiliates</li>
-        </ul>
-      </div>
+       
+      <form class="subscribe-form">
+        <input type="email" placeholder="Email Address*" required>
+        <button type="submit">Subscribe</button>
+      </form>
     </div>
-    <div class="footer-bottom">
-      <p>2024 | All Rights Reserved.| Built by Meghana Aripirala </p>
-      <div class="social-icons">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin-in"></i>
-      </div>
+    <div class="footer-column">
+      <h4>Help</h4>
+      <ul>
+        <li>FAQs</a></li>
+        <li>Track Order</a></li>
+        <li>Cancel Order</a></li>
+        <li>Return Order</a></li>
+        <li>Warranty Info</a></li>
+      </ul>
     </div>
-  </footer>
+    <div class="footer-column">
+      <h4>Policies</h4>
+      <ul>
+        <li>Return Policy</a></li>
+        <li>Security</a></li>
+        <li>Sitemap</a></li>
+        <li>Privacy Policy</a></li>
+        <li>Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Service Centres</li>
+        <li>Careers</li>
+        <li>Affiliates</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>2025 Tech-Shop | All Rights Reserved | Built by Kanakamedala Ganesh</p>
+    <div class="social-icons">
+      <a href="#" aria-label="fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="X" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Ins" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Ldn" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+    
+
+
 </body>
 </html>
